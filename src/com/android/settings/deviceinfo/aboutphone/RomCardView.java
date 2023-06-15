@@ -48,8 +48,8 @@ public class RomCardView extends AboutBaseCard {
         rlparams.addRule(RelativeLayout.ABOVE, R.id.rom_logo_id);
         rom_logo.setLayoutParams(rlparams);
         setMinimumWidth(rom_logo.getWidth());
-        String DEBUG_VERSION_TOP="1.7";
-        String DEBUG_VERSION_BOTTOM="ASTRA";
+        String DEBUG_VERSION_TOP="1.8";
+        String DEBUG_VERSION_BOTTOM="RADIANCE";
         String version = SystemProperties.get("rom.modversion");
         String releaseType ="OFFICIAL";
         TextView rom_title = new TextView(context);
